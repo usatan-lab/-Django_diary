@@ -1,0 +1,11 @@
+{% extends "base/diary_base.html" %}
+{% block body %}
+
+<p>{{ datetime_now }}</p>
+<br>
+<a href="{% url 'diary:page_create' %}" class="button">POST</a>
+<br>
+<a href="{% url 'diary:page_list' %}" class="button">PAGE LIST</a>
+<br>
+
+{% endblock %}

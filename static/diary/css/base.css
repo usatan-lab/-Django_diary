@@ -1,0 +1,50 @@
+/* base.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6; /* 柔らかいグレー */
+    color: #2c3e50; /* 濃いネイビーブルーでシックな印象 */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #2c3e50; /* 濃いネイビーブルー */
+    color: white; /* 白文字でコントラストを強調 */
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+a {
+    color: #3498db; /* 落ち着いたブルーリンク */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* マウスオーバー時にアンダーライン */
+    color: #1abc9c; /* エメラルドグリーンでホバー */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* 白背景 */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ほんのり影 */
+}
+
+button {
+    background-color: #34495e; /* 暗めのグレーブルー */
+    color: white; /* 白文字 */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2c3e50; /* ホバーでさらに暗めに */
+}
